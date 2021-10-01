@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    color: indianred;
+    background-color: khaki;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+
+#img-1 {
+    max-width: 500px;
+    height: auto;
+}
+
+#main {
+    text-align: center;
+}
+
+.description {
+    font-family: 'Roboto Condensed', sans-serif;
+}
