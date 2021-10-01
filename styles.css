@@ -22,10 +22,21 @@ li {
     font-size: 1.5em;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 a:visited {
+    text-decoration: none;
     color:rgb(212, 65, 192);
 }
+
 a:hover {
+    text-decoration: underline;
     color: rgb(65, 92, 212);
 }
 
