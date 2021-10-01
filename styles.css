@@ -4,6 +4,7 @@
 body {
     color: indianred;
     background-color: khaki;
+    font-size: 1.0em;
 }
 
 h1 {
@@ -11,19 +12,76 @@ h1 {
     font-size: 50px;
 }
 
-#img-1 {
-    max-width: 500px;
-    height: auto;
+ul {
+    width: 25%;
+    margin: auto;
 }
+
+li {
+    text-align: left;
+    font-size: 1.5em;
+}
+
+a:visited {
+    color:rgb(212, 65, 192);
+}
+a:hover {
+    color: rgb(65, 92, 212);
+}
+
+
 
 #main {
     text-align: center;
 }
 
+.paragraph {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
 .description {
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.5em;
 }
 
 .h3 {
     font-family: 'Oswald', sans-serif;
 }
+
+    @media (max-width: 800px) {
+        img {
+            width: 350px;
+            height: auto;
+        }
+        ul {
+            width: 50%;
+            margin: auto;
+        }
+
+        li {
+            font-size: 1.5em;    
+        }
+
+        .paragraph {
+            font-size: 1.3em
+        }
+    }
+
+    @media (max-width: 600px) {
+        img {
+            width: 300px;
+            height: auto;
+        }
+        ul {
+            width: 50%;
+            margin: auto;
+        }
+
+        li {
+            font-size: 1.5em;    
+        }
+        .paragraph {
+            font-size: 1.1em;
+        }
+    }
